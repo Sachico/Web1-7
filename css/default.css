@@ -7,9 +7,15 @@
 
 body{
   background-color:green;
+  margin: 48px 0 0 0 ;
 }
 header{
   background-color:gray;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index:+1;
 }
 .box{
    background-color:blue;
@@ -24,6 +30,10 @@ header{
 aside{
    background-color:purple;
   width:200px;
+  float:right;
+  position: relative;
+  top: 20px;
+  right: 10px;
 }
 footer{
    background-color:orange;
