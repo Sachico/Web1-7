@@ -19,8 +19,11 @@ header{
 }
 .box{
    background-color:blue;
-  width:500px;
+  width:240px;
+  height:80px;
+  margin:5px;
   float:left;
+  overflow:hidden;
 }
 .box{
    background-color:yellow;
